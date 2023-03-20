@@ -1,0 +1,241 @@
+h1,h2,h3,h4,h5,h6,
+p,
+ol,ul,
+span,
+small{
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* menu section start */
+nav{
+    background-color: #02918b;
+}
+#my_menu ul li a{
+    display: inline-block;
+    padding: 23px 23px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    transition: .6s;
+}
+#my_menu ul li a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+/* menu section end */
+
+/* banner section css start */
+#banner{
+    background-image: url(../img/MYFOLIO.jpg);
+    height: 780px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+#banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+    background: black;
+
+}
+#banner .container{
+    text-align: center;
+    margin: auto;
+}
+
+#banner .container h1{
+    text-transform: uppercase;
+    font-size: 68px;
+    color: white;
+    letter-spacing: 20px;
+    
+}
+#banner .container h5{
+   
+font-size: 30px;
+    color: white;
+
+}
+#banner .container h6{
+    color: white;
+    font-size: 14px;
+}
+#banner .container a{
+    display: inline-block;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: yellow;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/* banner section css end */
+
+/* about section css start */
+
+
+#about{
+    padding-top: 50px;
+
+}
+#about .about_info{
+    margin-bottom: 100px;
+}
+#about .about_info h2{
+    font-size: 46px;
+    color: #02918b;
+    text-transform:uppercase ;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about_info p{
+    color: #7e8287;
+}
+
+.about_item{
+    text-align: center;
+    border-right: 1px solid #7e8287;
+    padding-right: 20px;
+}
+.about_item.about_item:nth-child-4(4){
+    border-right: none;
+}
+.about_item img{
+    margin-bottom: 20px;
+}
+
+.about_item h6{
+    color: #7e8287;
+    margin-bottom: 30px;
+}
+
+.about_item p{
+    color: #a0a3a7;
+}
+
+
+/* about section css end */
+
+/* service section css start */
+
+.sub_container{
+    width: 50%;
+}
+
+#service{
+    background-image: url(../img/MYFOLIO\ \(1\).jpg);
+    
+    
+    background-size: cover;
+    margin-top: 80px;
+}
+.service_info h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+}
+.service_info img{
+    padding-bottom: 30px;
+}
+.service_item{
+    margin-top: 40px;
+    
+}
+
+/* servicese section css end */
+
+/* work section css start */
+
+#my_work{
+    padding-top:100px;
+}
+#my_work .work_info h2{
+    font-size:50px;
+    font-weight:700;
+    text-transform:uppercase;
+    color:#02918c;
+    margin-bottom: 15px;
+}
+#my_work .work_info p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #a0a3a7;
+}
+
+/* work section css end */
+
+/* contact section css strat */
+
+#contact{
+    padding-top: 50px;
+}
+
+
+.contact_info h2{
+    text-transform: uppercase;
+    color: #02918c;
+    font-size:46px ;
+    font-weight: 800;
+    margin-bottom: 40px;
+
+}
+
+.contact_info p{
+    color: #a0a3a7;
+    margin-bottom:30px;
+    
+}
+
+.contact_form{
+    background-color: #0a0a0b;
+}
+.contact_form input,
+.contact_form textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid whitesmoke;
+    padding: 15px;
+    margin-bottom: 40px;
+    color: #7e8287;
+    text-align: center;
+}
+
+.contact_form input::placeholder,
+.contact_form textarea::placeholder{
+    text-transform: uppercase;
+}
+
+.contact_form button{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #02918b;
+    padding: 10px 80px;
+    display: inline-block;
+}
+
+
+
+
+/* contact section css end */
